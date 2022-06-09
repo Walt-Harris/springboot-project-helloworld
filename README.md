@@ -223,19 +223,19 @@ mvn clean package
 === Build Docker Image
 
 ```
-docker image build -t hzeynep/spring-boot:latest .
+docker image build -t harriswalt/spring-boot:latest .
 ```
 
 === Push Docker Image
 
 ```
-docker image push hzeynep/spring-boot:latest
+docker image push harriswalt/spring-boot:latest
 ```
 
 === Run Docker Container
 
 ```
-docker container run -d --name hello-world -p 8080:8080 hzeynep/spring-boot:latest
+docker container run -d --name hello-world -p 8080:8080 harriswalt/spring-boot:latest
 ```
 
 === Test Application
